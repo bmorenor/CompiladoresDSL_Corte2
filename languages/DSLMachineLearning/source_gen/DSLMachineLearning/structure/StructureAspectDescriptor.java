@@ -142,9 +142,9 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:39ccb51b-8655-43ec-9c8e-61b9dee4ce72(DSLMachineLearning.structure)/5513841964559311568");
     b.version(3);
     b.aggregate("modelname", 0x4c851a0d9d333ae0L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b0fL).optional(false).ordered(true).multiple(false).origin("5513841964559317728").done();
-    b.aggregate("modelfamily", 0x4c851a0d9d333ae4L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b12L).optional(false).ordered(true).multiple(false).origin("5513841964559317732").done();
-    b.aggregate("modeltype", 0x4c851a0d9d333c04L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b22L).optional(true).ordered(true).multiple(false).origin("5513841964559318020").done();
-    b.aggregate("modeldescription", 0x4c851a0d9d333ae8L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b26L).optional(true).ordered(true).multiple(false).origin("5513841964559317736").done();
+    b.aggregate("modelfamily", 0x26df2999b41ddccfL).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b12L).optional(false).ordered(true).multiple(false).origin("2801003233376328911").done();
+    b.aggregate("modeltype", 0x4c851a0d9d333c04L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b22L).optional(false).ordered(true).multiple(false).origin("5513841964559318020").done();
+    b.aggregate("modeldescription", 0x4c851a0d9d333ae8L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b26L).optional(false).ordered(true).multiple(false).origin("5513841964559317736").done();
     b.aggregate("inputs", 0x4c851a0d9d333aedL).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b27L).optional(false).ordered(true).multiple(false).origin("5513841964559317741").done();
     b.aggregate("outputs", 0x4c851a0d9d333af3L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b4bL).optional(false).ordered(true).multiple(false).origin("5513841964559317747").done();
     b.aggregate("model", 0x4c851a0d9d333af9L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b6aL).optional(false).ordered(true).multiple(false).origin("5513841964559317753").done();
@@ -204,8 +204,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:39ccb51b-8655-43ec-9c8e-61b9dee4ce72(DSLMachineLearning.structure)/5513841964559317872");
     b.version(3);
-    b.aggregate("layername", 0x4c851a0d9d333b71L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b70L).optional(false).ordered(true).multiple(false).origin("5513841964559317873").done();
-    b.aggregate("layerparams", 0x4c851a0d9d333b73L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b70L).optional(false).ordered(true).multiple(false).origin("5513841964559317875").done();
+    b.aggregate("layername", 0x4c851a0d9d333b71L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b7bL).optional(false).ordered(true).multiple(false).origin("5513841964559317873").done();
+    b.aggregate("layerparams", 0x4c851a0d9d333b73L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b7cL).optional(false).ordered(true).multiple(false).origin("5513841964559317875").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForLayerList() {
@@ -302,6 +302,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:39ccb51b-8655-43ec-9c8e-61b9dee4ce72(DSLMachineLearning.structure)/5513841964559317892");
     b.version(3);
     b.property("number", 0x4c851a0d9d333b86L).type(PrimitiveTypeId.INTEGER).origin("5513841964559317894").done();
+    b.aggregate("num", 0x26df2999b4175d45L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b84L).optional(true).ordered(true).multiple(true).origin("2801003233375903045").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForNumberList() {
@@ -309,7 +310,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:39ccb51b-8655-43ec-9c8e-61b9dee4ce72(DSLMachineLearning.structure)/5513841964559317881");
     b.version(3);
-    b.aggregate("number", 0x4c851a0d9d333b82L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b84L).optional(false).ordered(true).multiple(true).origin("5513841964559317890").done();
+    b.aggregate("number", 0x26df2999b4161465L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b84L).optional(true).ordered(true).multiple(true).origin("2801003233375818853").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForOutput() {

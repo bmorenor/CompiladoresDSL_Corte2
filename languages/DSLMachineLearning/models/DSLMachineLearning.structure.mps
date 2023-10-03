@@ -59,8 +59,8 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4M56wQtcNGf" resolve="ModelName" />
     </node>
-    <node concept="1TJgyj" id="4M56wQtcNF$" role="1TKVEi">
-      <property role="IQ2ns" value="5513841964559317732" />
+    <node concept="1TJgyj" id="2rvapAO7tNf" role="1TKVEi">
+      <property role="IQ2ns" value="2801003233376328911" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="modelfamily" />
       <property role="20lbJX" value="fLJekj4/_1" />
@@ -70,12 +70,14 @@
       <property role="IQ2ns" value="5513841964559318020" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="modeltype" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4M56wQtcNGy" resolve="ModelType" />
     </node>
     <node concept="1TJgyj" id="4M56wQtcNFC" role="1TKVEi">
       <property role="IQ2ns" value="5513841964559317736" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="modeldescription" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4M56wQtcNGA" resolve="ModelDescription" />
     </node>
     <node concept="1TJgyj" id="4M56wQtcNFH" role="1TKVEi">
@@ -137,7 +139,6 @@
   <node concept="1TIwiD" id="4M56wQtcNG_">
     <property role="EcuMT" value="5513841964559317797" />
     <property role="TrG5h" value="ModelTypeName" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3S00N6OsBr2" role="1TKVEl">
       <property role="IQ2nx" value="4467574342367213250" />
       <property role="TrG5h" value="modelTypeName" />
@@ -337,14 +338,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="layername" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4M56wQtcNHK" resolve="Layer" />
+      <ref role="20lvS9" node="4M56wQtcNHV" resolve="LayerName" />
     </node>
     <node concept="1TJgyj" id="4M56wQtcNHN" role="1TKVEi">
       <property role="IQ2ns" value="5513841964559317875" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="layerparams" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4M56wQtcNHK" resolve="Layer" />
+      <ref role="20lvS9" node="4M56wQtcNHW" resolve="LayerParams" />
     </node>
   </node>
   <node concept="1TIwiD" id="4M56wQtcNHQ">
@@ -363,11 +364,11 @@
     <property role="EcuMT" value="5513841964559317881" />
     <property role="TrG5h" value="NumberList" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="4M56wQtcNI2" role="1TKVEi">
-      <property role="IQ2ns" value="5513841964559317890" />
+    <node concept="1TJgyj" id="2rvapAO5xh_" role="1TKVEi">
+      <property role="IQ2ns" value="2801003233375818853" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="number" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4M56wQtcNI4" resolve="Number" />
     </node>
   </node>
@@ -401,6 +402,13 @@
       <property role="IQ2nx" value="5513841964559317894" />
       <property role="TrG5h" value="number" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyj" id="2rvapAO5PP5" role="1TKVEi">
+      <property role="IQ2ns" value="2801003233375903045" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="num" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4M56wQtcNI4" resolve="Number" />
     </node>
   </node>
   <node concept="25R3W" id="4M56wQtcNIr">

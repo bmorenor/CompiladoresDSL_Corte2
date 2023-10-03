@@ -25,6 +25,7 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
@@ -54,9 +55,9 @@
         <ref role="1NtTu8" to="j1h8:4M56wQtcNFw" resolve="modelname" />
       </node>
       <node concept="3F1sOY" id="3S00N6OsBoV" role="3EZMnx">
-        <ref role="1NtTu8" to="j1h8:4M56wQtcNF$" resolve="modelfamily" />
+        <ref role="1NtTu8" to="j1h8:2rvapAO7tNf" resolve="modelfamily" />
       </node>
-      <node concept="3F1sOY" id="3S00N6OsBp8" role="3EZMnx">
+      <node concept="3F1sOY" id="2rvapAO7Ce5" role="3EZMnx">
         <ref role="1NtTu8" to="j1h8:4M56wQtcNK4" resolve="modeltype" />
       </node>
       <node concept="3F1sOY" id="3S00N6OsBpi" role="3EZMnx">
@@ -118,14 +119,14 @@
   <node concept="24kQdi" id="3S00N6OsBru">
     <ref role="1XX52x" to="j1h8:4M56wQtcNGy" resolve="ModelType" />
     <node concept="3EZMnI" id="8aIKUsW8lV" role="2wV5jI">
-      <node concept="2iRfu4" id="8aIKUsW8lW" role="2iSdaV" />
-      <node concept="3F0ifn" id="8aIKUsW8lZ" role="3EZMnx">
+      <node concept="3F0ifn" id="2rvapAO7jqt" role="3EZMnx">
         <property role="3F0ifm" value="Model_Type" />
       </node>
-      <node concept="3F0ifn" id="8aIKUsWTKQ" role="3EZMnx">
+      <node concept="3F0ifn" id="2rvapAO7jq_" role="3EZMnx">
         <property role="3F0ifm" value=":" />
       </node>
-      <node concept="3F1sOY" id="8aIKUsWTKY" role="3EZMnx">
+      <node concept="2iRfu4" id="8aIKUsW8lW" role="2iSdaV" />
+      <node concept="3F1sOY" id="2rvapAO6kZ_" role="3EZMnx">
         <ref role="1NtTu8" to="j1h8:4M56wQtcNGz" resolve="modeltypename" />
       </node>
     </node>
@@ -323,63 +324,133 @@
   </node>
   <node concept="24kQdi" id="3S00N6OsNRG">
     <ref role="1XX52x" to="j1h8:4M56wQtcNHE" resolve="Model" />
-    <node concept="3F1sOY" id="3S00N6OsNRL" role="2wV5jI">
-      <ref role="1NtTu8" to="j1h8:4M56wQtcNHF" resolve="layerlist" />
+    <node concept="3EZMnI" id="2rvapAO0bvD" role="2wV5jI">
+      <node concept="3F0ifn" id="2rvapAO0bvK" role="3EZMnx">
+        <property role="3F0ifm" value="Model" />
+      </node>
+      <node concept="2iRkQZ" id="2rvapAO0bvG" role="2iSdaV" />
+      <node concept="3F0ifn" id="2rvapAO0bvQ" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+      </node>
+      <node concept="3F1sOY" id="2rvapAO0bwJ" role="3EZMnx">
+        <ref role="1NtTu8" to="j1h8:4M56wQtcNHF" resolve="layerlist" />
+      </node>
+      <node concept="3F0ifn" id="2rvapAO0bwE" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="3S00N6OsNRO">
     <ref role="1XX52x" to="j1h8:4M56wQtcNHH" resolve="LayerList" />
-    <node concept="3F2HdR" id="3S00N6OsNRU" role="2wV5jI">
-      <ref role="1NtTu8" to="j1h8:4M56wQtcNHI" resolve="layers" />
-      <node concept="2iRkQZ" id="3S00N6OsNRW" role="2czzBx" />
+    <node concept="3EZMnI" id="2rvapAO0bxc" role="2wV5jI">
+      <node concept="3F0ifn" id="2rvapAO1rT5" role="3EZMnx">
+        <property role="3F0ifm" value="Layers" />
+      </node>
+      <node concept="3F0ifn" id="2rvapAO0bxm" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+      </node>
+      <node concept="2iRkQZ" id="2rvapAO0bxf" role="2iSdaV" />
+      <node concept="3F2HdR" id="2rvapAO17yG" role="3EZMnx">
+        <ref role="1NtTu8" to="j1h8:4M56wQtcNHI" resolve="layers" />
+        <node concept="2iRkQZ" id="2rvapAO17yI" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="2rvapAO17yW" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="3S00N6OsNRZ">
     <ref role="1XX52x" to="j1h8:4M56wQtcNHQ" resolve="Layers" />
-    <node concept="3F1sOY" id="3S00N6OsNS1" role="2wV5jI">
-      <ref role="1NtTu8" to="j1h8:4M56wQtcNHR" resolve="layer" />
+    <node concept="3EZMnI" id="2rvapAO1rTc" role="2wV5jI">
+      <node concept="2iRkQZ" id="2rvapAO1rTd" role="2iSdaV" />
+      <node concept="3F0ifn" id="2rvapAO1rTi" role="3EZMnx">
+        <property role="3F0ifm" value="Layer" />
+      </node>
+      <node concept="3F0ifn" id="2rvapAO1rTl" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+      </node>
+      <node concept="3F1sOY" id="2rvapAO1rTW" role="3EZMnx">
+        <ref role="1NtTu8" to="j1h8:4M56wQtcNHR" resolve="layer" />
+      </node>
+      <node concept="3F0ifn" id="2rvapAO1rU1" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="3S00N6OsNS4">
     <ref role="1XX52x" to="j1h8:4M56wQtcNHK" resolve="Layer" />
     <node concept="3EZMnI" id="3S00N6OsNSc" role="2wV5jI">
-      <node concept="3F1sOY" id="3S00N6OsNSj" role="3EZMnx">
-        <ref role="1NtTu8" to="j1h8:4M56wQtcNHL" resolve="layername" />
+      <node concept="3EZMnI" id="2rvapAO0bxY" role="3EZMnx">
+        <node concept="VPM3Z" id="2rvapAO0by0" role="3F10Kt" />
+        <node concept="3F0ifn" id="2rvapAO0byb" role="3EZMnx">
+          <property role="3F0ifm" value="Layer_name" />
+        </node>
+        <node concept="3F0ifn" id="2rvapAO0byl" role="3EZMnx">
+          <property role="3F0ifm" value=":" />
+        </node>
+        <node concept="3F1sOY" id="2rvapAO0byy" role="3EZMnx">
+          <ref role="1NtTu8" to="j1h8:4M56wQtcNHL" resolve="layername" />
+        </node>
+        <node concept="2iRfu4" id="2rvapAO0by3" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="3S00N6OsNSf" role="2iSdaV" />
-      <node concept="3F1sOY" id="3S00N6OsNSp" role="3EZMnx">
-        <ref role="1NtTu8" to="j1h8:4M56wQtcNHN" resolve="layerparams" />
+      <node concept="3EZMnI" id="2rvapAO0bz4" role="3EZMnx">
+        <node concept="VPM3Z" id="2rvapAO0bz6" role="3F10Kt" />
+        <node concept="3F0ifn" id="2rvapAO0bzn" role="3EZMnx">
+          <property role="3F0ifm" value="Layer_Params" />
+        </node>
+        <node concept="3F0ifn" id="2rvapAO0bzt" role="3EZMnx">
+          <property role="3F0ifm" value=":" />
+        </node>
+        <node concept="3F1sOY" id="2rvapAO0bzK" role="3EZMnx">
+          <ref role="1NtTu8" to="j1h8:4M56wQtcNHN" resolve="layerparams" />
+        </node>
+        <node concept="2iRfu4" id="2rvapAO0bz9" role="2iSdaV" />
       </node>
     </node>
   </node>
   <node concept="24kQdi" id="3S00N6OsNSt">
     <ref role="1XX52x" to="j1h8:4M56wQtcNHT" resolve="NumberList" />
-    <node concept="3F2HdR" id="3S00N6OsNSv" role="2wV5jI">
-      <ref role="1NtTu8" to="j1h8:4M56wQtcNI2" resolve="number" />
+    <node concept="3EZMnI" id="2rvapAO2eMc" role="2wV5jI">
+      <node concept="2iRfu4" id="2rvapAO2eMd" role="2iSdaV" />
+      <node concept="3F0ifn" id="2rvapAO3iqf" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+      </node>
+      <node concept="3F2HdR" id="2rvapAO5xhH" role="3EZMnx">
+        <ref role="1NtTu8" to="j1h8:2rvapAO5xh_" resolve="number" />
+        <node concept="2iRfu4" id="2rvapAO5xhJ" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="2rvapAO5Fzr" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="3S00N6OsNSy">
     <ref role="1XX52x" to="j1h8:4M56wQtcNHV" resolve="LayerName" />
-    <node concept="3EZMnI" id="8aIKUsW8hU" role="2wV5jI">
-      <node concept="2iRfu4" id="8aIKUsW8hV" role="2iSdaV" />
-      <node concept="3F0ifn" id="8aIKUsW8i4" role="3EZMnx">
-        <property role="3F0ifm" value="Layer_Name" />
-      </node>
-      <node concept="3F0ifn" id="8aIKUsW8ia" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
-      </node>
-      <node concept="3F0A7n" id="8aIKUsW8ii" role="3EZMnx">
-        <ref role="1NtTu8" to="j1h8:4M56wQtcNIo" resolve="freetext" />
-        <node concept="ljvvj" id="8aIKUsW8ij" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
+    <node concept="3F0A7n" id="2rvapAO1rT2" role="2wV5jI">
+      <ref role="1NtTu8" to="j1h8:4M56wQtcNIo" resolve="freetext" />
     </node>
   </node>
   <node concept="24kQdi" id="3S00N6OsNSB">
     <ref role="1XX52x" to="j1h8:4M56wQtcNHW" resolve="LayerParams" />
     <node concept="3F1sOY" id="3S00N6OsNSD" role="2wV5jI">
       <ref role="1NtTu8" to="j1h8:4M56wQtcNHX" resolve="numerlist" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2rvapAO1__G">
+    <ref role="1XX52x" to="j1h8:4M56wQtcNI4" resolve="Number" />
+    <node concept="3EZMnI" id="2rvapAO5PP7" role="2wV5jI">
+      <node concept="2iRfu4" id="2rvapAO5PP8" role="2iSdaV" />
+      <node concept="3F0A7n" id="2rvapAO5PPb" role="3EZMnx">
+        <ref role="1NtTu8" to="j1h8:4M56wQtcNI6" resolve="number" />
+      </node>
+      <node concept="3F0ifn" id="2rvapAO5PPg" role="3EZMnx">
+        <property role="3F0ifm" value="," />
+      </node>
+      <node concept="3F2HdR" id="2rvapAO5PPo" role="3EZMnx">
+        <ref role="1NtTu8" to="j1h8:2rvapAO5PP5" resolve="num" />
+        <node concept="2iRfu4" id="2rvapAO5PPq" role="2czzBx" />
+      </node>
     </node>
   </node>
 </model>

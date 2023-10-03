@@ -15,8 +15,13 @@
       <concept id="5513841964559317802" name="DSLMachineLearning.structure.InputList" flags="ng" index="3hHy4B">
         <child id="5513841964559317803" name="input" index="3hHy4A" />
       </concept>
+      <concept id="5513841964559317797" name="DSLMachineLearning.structure.ModelTypeName" flags="ng" index="3hHy4C" />
       <concept id="5513841964559317799" name="DSLMachineLearning.structure.Inputs" flags="ng" index="3hHy4E">
         <child id="5513841964559317800" name="inputslist" index="3hHy4_" />
+      </concept>
+      <concept id="5513841964559317798" name="DSLMachineLearning.structure.ModelDescription" flags="ng" index="3hHy4F" />
+      <concept id="5513841964559317794" name="DSLMachineLearning.structure.ModelType" flags="ng" index="3hHy4J">
+        <child id="5513841964559317795" name="modeltypename" index="3hHy4I" />
       </concept>
       <concept id="5513841964559317818" name="DSLMachineLearning.structure.Input" flags="ng" index="3hHy4R">
         <child id="5513841964559317820" name="inputname" index="3hHy4L" />
@@ -48,48 +53,83 @@
       <concept id="5513841964559317862" name="DSLMachineLearning.structure.OutputType" flags="ng" index="3hHy5F">
         <child id="5513841964559317863" name="outputtypename" index="3hHy5E" />
       </concept>
+      <concept id="5513841964559317884" name="DSLMachineLearning.structure.LayerParams" flags="ng" index="3hHy5L">
+        <child id="5513841964559317885" name="numerlist" index="3hHy5K" />
+      </concept>
+      <concept id="5513841964559317881" name="DSLMachineLearning.structure.NumberList" flags="ng" index="3hHy5O" />
+      <concept id="5513841964559317883" name="DSLMachineLearning.structure.LayerName" flags="ng" index="3hHy5Q" />
       <concept id="5513841964559317878" name="DSLMachineLearning.structure.Layers" flags="ng" index="3hHy5V">
         <child id="5513841964559317879" name="layer" index="3hHy5U" />
       </concept>
-      <concept id="5513841964559317872" name="DSLMachineLearning.structure.Layer" flags="ng" index="3hHy5X" />
+      <concept id="5513841964559317872" name="DSLMachineLearning.structure.Layer" flags="ng" index="3hHy5X">
+        <child id="5513841964559317873" name="layername" index="3hHy5W" />
+        <child id="5513841964559317875" name="layerparams" index="3hHy5Y" />
+      </concept>
       <concept id="5513841964559311568" name="DSLMachineLearning.structure.Document" flags="ng" index="3hHzzt">
+        <child id="2801003233376328911" name="modelfamily" index="2iKJlm" />
         <child id="5513841964559317741" name="inputs" index="3hHy3w" />
-        <child id="5513841964559317732" name="modelfamily" index="3hHy3D" />
+        <child id="5513841964559317736" name="modeldescription" index="3hHy3_" />
         <child id="5513841964559317728" name="modelname" index="3hHy3H" />
         <child id="5513841964559317753" name="model" index="3hHy3O" />
         <child id="5513841964559317747" name="outputs" index="3hHy3Y" />
+        <child id="5513841964559318020" name="modeltype" index="3hHyo9" />
       </concept>
     </language>
   </registry>
-  <node concept="3hHzzt" id="8aIKUsYzDv">
-    <node concept="3hHy42" id="8aIKUsYzDw" role="3hHy3H" />
-    <node concept="3hHy4v" id="8aIKUsYzDx" role="3hHy3D">
-      <node concept="2asBnL" id="8aIKUsYzDy" role="3hHy4H" />
+  <node concept="3hHzzt" id="2rvapAO87oF">
+    <node concept="3hHy42" id="2rvapAO87oG" role="3hHy3H" />
+    <node concept="3hHy4v" id="2rvapAO87oH" role="2iKJlm">
+      <node concept="2asBnL" id="2rvapAO87oI" role="3hHy4H" />
     </node>
-    <node concept="3hHy4E" id="8aIKUsYzDz" role="3hHy3w">
-      <node concept="3hHy4B" id="8aIKUsYzD$" role="3hHy4_">
-        <node concept="3hHy4R" id="8aIKUsYzD_" role="3hHy4A">
-          <node concept="3hHy5e" id="8aIKUsYzDA" role="3hHy4L" />
-          <node concept="3hHy59" id="8aIKUsYzDB" role="3hHy4M">
-            <node concept="3hHy54" id="8aIKUsYzDC" role="3hHy5b" />
+    <node concept="3hHy4J" id="2rvapAO87oJ" role="3hHyo9">
+      <node concept="3hHy4C" id="2rvapAO87oK" role="3hHy4I" />
+    </node>
+    <node concept="3hHy4F" id="2rvapAO87oL" role="3hHy3_" />
+    <node concept="3hHy4E" id="2rvapAO87oM" role="3hHy3w">
+      <node concept="3hHy4B" id="2rvapAO87oN" role="3hHy4_">
+        <node concept="3hHy4R" id="2rvapAO87oO" role="3hHy4A">
+          <node concept="3hHy5e" id="2rvapAO87oP" role="3hHy4L" />
+          <node concept="3hHy59" id="2rvapAO87oQ" role="3hHy4M">
+            <node concept="3hHy54" id="2rvapAO87oR" role="3hHy5b" />
+          </node>
+        </node>
+      </node>
+      <node concept="3hHy4B" id="2rvapAO87po" role="3hHy4_">
+        <node concept="3hHy4R" id="2rvapAO87pp" role="3hHy4A">
+          <node concept="3hHy5e" id="2rvapAO87pq" role="3hHy4L" />
+          <node concept="3hHy59" id="2rvapAO87pr" role="3hHy4M">
+            <node concept="3hHy54" id="2rvapAO87ps" role="3hHy5b" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="3hHy56" id="8aIKUsYzDD" role="3hHy3Y">
-      <node concept="3hHy5h" id="8aIKUsYzDE" role="3hHy51">
-        <node concept="3hHy5i" id="8aIKUsYzDF" role="3hHy5g">
-          <node concept="3hHy5C" id="8aIKUsYzDG" role="3hHy5H" />
-          <node concept="3hHy5F" id="8aIKUsYzDH" role="3hHy5J">
-            <node concept="3hHy5$" id="8aIKUsYzDI" role="3hHy5E" />
+    <node concept="3hHy56" id="2rvapAO87oS" role="3hHy3Y">
+      <node concept="3hHy5h" id="2rvapAO87oT" role="3hHy51">
+        <node concept="3hHy5i" id="2rvapAO87oU" role="3hHy5g">
+          <node concept="3hHy5C" id="2rvapAO87oV" role="3hHy5H" />
+          <node concept="3hHy5F" id="2rvapAO87oW" role="3hHy5J">
+            <node concept="3hHy5$" id="2rvapAO87oX" role="3hHy5E" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="3hHy5B" id="8aIKUsYzDJ" role="3hHy3O">
-      <node concept="3hHy5w" id="8aIKUsYzDK" role="3hHy5A">
-        <node concept="3hHy5V" id="8aIKUsYzDL" role="3hHy5z">
-          <node concept="3hHy5X" id="8aIKUsYzDM" role="3hHy5U" />
+    <node concept="3hHy5B" id="2rvapAO87oY" role="3hHy3O">
+      <node concept="3hHy5w" id="2rvapAO87oZ" role="3hHy5A">
+        <node concept="3hHy5V" id="2rvapAO87p0" role="3hHy5z">
+          <node concept="3hHy5X" id="2rvapAO87p1" role="3hHy5U">
+            <node concept="3hHy5Q" id="2rvapAO87p2" role="3hHy5W" />
+            <node concept="3hHy5L" id="2rvapAO87p3" role="3hHy5Y">
+              <node concept="3hHy5O" id="2rvapAO87p4" role="3hHy5K" />
+            </node>
+          </node>
+        </node>
+        <node concept="3hHy5V" id="2rvapAO87p9" role="3hHy5z">
+          <node concept="3hHy5X" id="2rvapAO87pa" role="3hHy5U">
+            <node concept="3hHy5Q" id="2rvapAO87pb" role="3hHy5W" />
+            <node concept="3hHy5L" id="2rvapAO87pc" role="3hHy5Y">
+              <node concept="3hHy5O" id="2rvapAO87pd" role="3hHy5K" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
