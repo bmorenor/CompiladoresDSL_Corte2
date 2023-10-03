@@ -9,6 +9,7 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
@@ -43,19 +44,34 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     editorCell.setCellId("Collection_ei9jxx_a");
     editorCell.setBig(true);
     setCellContext(editorCell);
+    editorCell.addEditorCell(createConstant_0());
+    editorCell.addEditorCell(createConstant_1());
     editorCell.addEditorCell(createRefNode_0());
     editorCell.addEditorCell(createRefNode_1());
+    editorCell.addEditorCell(createConstant_2());
+    return editorCell;
+  }
+  private EditorCell createConstant_0() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Output");
+    editorCell.setCellId("Constant_ei9jxx_a0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_1() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "{");
+    editorCell.setCellId("Constant_ei9jxx_b0");
+    editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new outputnameSingleRoleHandler_ei9jxx_a0(myNode, LINKS.outputname$tkdN, getEditorContext());
+    SingleRoleCellProvider provider = new outputnameSingleRoleHandler_ei9jxx_c0(myNode, LINKS.outputname$tkdN, getEditorContext());
     return provider.createCell();
   }
-  private static class outputnameSingleRoleHandler_ei9jxx_a0 extends SingleRoleCellProvider {
+  private static class outputnameSingleRoleHandler_ei9jxx_c0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public outputnameSingleRoleHandler_ei9jxx_a0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public outputnameSingleRoleHandler_ei9jxx_c0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -103,14 +119,14 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     }
   }
   private EditorCell createRefNode_1() {
-    SingleRoleCellProvider provider = new outputtypeSingleRoleHandler_ei9jxx_b0(myNode, LINKS.outputtype$tkFP, getEditorContext());
+    SingleRoleCellProvider provider = new outputtypeSingleRoleHandler_ei9jxx_d0(myNode, LINKS.outputtype$tkFP, getEditorContext());
     return provider.createCell();
   }
-  private static class outputtypeSingleRoleHandler_ei9jxx_b0 extends SingleRoleCellProvider {
+  private static class outputtypeSingleRoleHandler_ei9jxx_d0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public outputtypeSingleRoleHandler_ei9jxx_b0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public outputtypeSingleRoleHandler_ei9jxx_d0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -156,6 +172,12 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     protected String getNoTargetText() {
       return "<no outputtype>";
     }
+  }
+  private EditorCell createConstant_2() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "}");
+    editorCell.setCellId("Constant_ei9jxx_e0");
+    editorCell.setDefaultText("");
+    return editorCell;
   }
 
   private static final class LINKS {

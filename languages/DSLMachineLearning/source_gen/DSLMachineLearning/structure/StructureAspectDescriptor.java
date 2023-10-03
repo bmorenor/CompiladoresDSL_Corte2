@@ -155,8 +155,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:39ccb51b-8655-43ec-9c8e-61b9dee4ce72(DSLMachineLearning.structure)/5513841964559317818");
     b.version(3);
-    b.aggregate("inputname", 0x4c851a0d9d333b3cL).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b43L).optional(true).ordered(true).multiple(false).origin("5513841964559317820").done();
-    b.aggregate("inputtype", 0x4c851a0d9d333b3fL).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b44L).optional(true).ordered(true).multiple(false).origin("5513841964559317823").done();
+    b.aggregate("inputname", 0x4c851a0d9d333b3cL).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b43L).optional(false).ordered(true).multiple(false).origin("5513841964559317820").done();
+    b.aggregate("inputtype", 0x4c851a0d9d333b3fL).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b44L).optional(false).ordered(true).multiple(false).origin("5513841964559317823").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForInputList() {
@@ -196,7 +196,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:39ccb51b-8655-43ec-9c8e-61b9dee4ce72(DSLMachineLearning.structure)/5513841964559317799");
     b.version(3);
-    b.aggregate("inputslist", 0x4c851a0d9d333b28L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b2aL).optional(false).ordered(true).multiple(false).origin("5513841964559317800").done();
+    b.aggregate("inputslist", 0x4c851a0d9d333b28L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b2aL).optional(false).ordered(true).multiple(true).origin("5513841964559317800").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForLayer() {
@@ -285,7 +285,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:39ccb51b-8655-43ec-9c8e-61b9dee4ce72(DSLMachineLearning.structure)/5513841964559317794");
     b.version(3);
-    b.aggregate("modeltypename", 0x4c851a0d9d333b23L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b22L).optional(true).ordered(true).multiple(false).origin("5513841964559317795").done();
+    b.aggregate("modeltypename", 0x4c851a0d9d333b23L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b25L).optional(false).ordered(true).multiple(false).origin("5513841964559317795").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForModelTypeName() {
@@ -317,7 +317,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:39ccb51b-8655-43ec-9c8e-61b9dee4ce72(DSLMachineLearning.structure)/5513841964559317855");
     b.version(3);
-    b.aggregate("outputname", 0x4c851a0d9d333b60L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b5fL).optional(false).ordered(true).multiple(false).origin("5513841964559317856").done();
+    b.aggregate("outputname", 0x4c851a0d9d333b60L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b65L).optional(false).ordered(true).multiple(false).origin("5513841964559317856").done();
     b.aggregate("outputtype", 0x4c851a0d9d333b62L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b66L).optional(false).ordered(true).multiple(false).origin("5513841964559317858").done();
     return b.create();
   }
@@ -342,7 +342,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:39ccb51b-8655-43ec-9c8e-61b9dee4ce72(DSLMachineLearning.structure)/5513841964559317862");
     b.version(3);
-    b.aggregate("ouputtypename", 0x4c851a0d9d333b67L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b69L).optional(false).ordered(true).multiple(false).origin("5513841964559317863").done();
+    b.aggregate("outputtypename", 0x4c851a0d9d333b67L).target(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333b69L).optional(false).ordered(true).multiple(false).origin("5513841964559317863").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForOutputTypeName() {

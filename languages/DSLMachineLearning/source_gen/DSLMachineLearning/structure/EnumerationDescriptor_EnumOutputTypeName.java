@@ -15,8 +15,8 @@ public class EnumerationDescriptor_EnumOutputTypeName extends EnumerationDescrip
     super(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333bd8L, "EnumOutputTypeName", "r:39ccb51b-8655-43ec-9c8e-61b9dee4ce72(DSLMachineLearning.structure)/5513841964559317976");
   }
 
-  private final EnumerationDescriptor.MemberDescriptor myMember_number_0 = new EnumerationDescriptor.MemberDescriptor("number", "NUMBER ", 0x4c851a0d9d333bd9L, "r:39ccb51b-8655-43ec-9c8e-61b9dee4ce72(DSLMachineLearning.structure)/5513841964559317977");
-  private final EnumerationDescriptor.MemberDescriptor myMember_categorical_0 = new EnumerationDescriptor.MemberDescriptor("categorical", "CATEGORICAL ", 0x4c851a0d9d333bdbL, "r:39ccb51b-8655-43ec-9c8e-61b9dee4ce72(DSLMachineLearning.structure)/5513841964559317979");
+  private final EnumerationDescriptor.MemberDescriptor myMember_number_0 = new EnumerationDescriptor.MemberDescriptor("number", "NUMBER", 0x4c851a0d9d333bd9L, "r:39ccb51b-8655-43ec-9c8e-61b9dee4ce72(DSLMachineLearning.structure)/5513841964559317977");
+  private final EnumerationDescriptor.MemberDescriptor myMember_categorical_0 = new EnumerationDescriptor.MemberDescriptor("categorical", "CATEGORICAL", 0x4c851a0d9d333bdbL, "r:39ccb51b-8655-43ec-9c8e-61b9dee4ce72(DSLMachineLearning.structure)/5513841964559317979");
   private final EnumerationDescriptor.MemberDescriptor myMember_binary_0 = new EnumerationDescriptor.MemberDescriptor("binary", "BINARY", 0x4c851a0d9d333bdfL, "r:39ccb51b-8655-43ec-9c8e-61b9dee4ce72(DSLMachineLearning.structure)/5513841964559317983");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xc443d583ed614d79L, 0xbf612b6fba21dfcaL, 0x4c851a0d9d333bd8L, 0x4c851a0d9d333bd9L, 0x4c851a0d9d333bdbL, 0x4c851a0d9d333bdfL);
