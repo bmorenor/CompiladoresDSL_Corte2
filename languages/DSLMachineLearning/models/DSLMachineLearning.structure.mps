@@ -120,7 +120,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="modelfamilyname" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4M56wQtcNGi" resolve="ModelFamily" />
+      <ref role="20lvS9" node="3S00N6OsBr0" resolve="ModelFamilyName" />
     </node>
   </node>
   <node concept="1TIwiD" id="4M56wQtcNGy">
@@ -138,6 +138,11 @@
     <property role="EcuMT" value="5513841964559317797" />
     <property role="TrG5h" value="ModelTypeName" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="3S00N6OsBr2" role="1TKVEl">
+      <property role="IQ2nx" value="4467574342367213250" />
+      <property role="TrG5h" value="modelTypeName" />
+      <ref role="AX2Wp" node="4M56wQtcNIE" resolve="EnumModelTypeName" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4M56wQtcNGA">
     <property role="EcuMT" value="5513841964559317798" />
@@ -216,6 +221,11 @@
     <property role="EcuMT" value="5513841964559317833" />
     <property role="TrG5h" value="InputTypeName" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="3S00N6OsBud" role="1TKVEl">
+      <property role="IQ2nx" value="4467574342367213453" />
+      <property role="TrG5h" value="inputTypeName" />
+      <ref role="AX2Wp" node="4M56wQtcNJb" resolve="EnumInputTypeName" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4M56wQtcNHb">
     <property role="EcuMT" value="5513841964559317835" />
@@ -225,7 +235,8 @@
       <property role="IQ2ns" value="5513841964559317836" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="outputlist" />
-      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="4M56wQtcNHs" resolve="OutputList" />
     </node>
   </node>
   <node concept="1TIwiD" id="4M56wQtcNHs">
@@ -256,6 +267,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="outputtype" />
       <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4M56wQtcNHA" resolve="OutputType" />
     </node>
   </node>
   <node concept="1TIwiD" id="4M56wQtcNH_">
@@ -277,13 +289,18 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="ouputtypename" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4M56wQtcNHA" resolve="OutputType" />
+      <ref role="20lvS9" node="4M56wQtcNHD" resolve="OutputTypeName" />
     </node>
   </node>
   <node concept="1TIwiD" id="4M56wQtcNHD">
     <property role="EcuMT" value="5513841964559317865" />
     <property role="TrG5h" value="OutputTypeName" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="3S00N6OsNRp" role="1TKVEl">
+      <property role="IQ2nx" value="4467574342367264217" />
+      <property role="TrG5h" value="outputTypeName" />
+      <ref role="AX2Wp" node="4M56wQtcNJo" resolve="EnumOutputTypeName" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4M56wQtcNHE">
     <property role="EcuMT" value="5513841964559317866" />
@@ -294,6 +311,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="layerlist" />
       <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4M56wQtcNHH" resolve="LayerList" />
     </node>
   </node>
   <node concept="1TIwiD" id="4M56wQtcNHH">
@@ -348,6 +366,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="number" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="4M56wQtcNI4" resolve="Number" />
     </node>
   </node>
   <node concept="1TIwiD" id="4M56wQtcNHV">
@@ -369,12 +388,8 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="numerlist" />
       <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4M56wQtcNHT" resolve="NumberList" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="4M56wQtcNHZ">
-    <property role="EcuMT" value="5513841964559317887" />
-    <property role="TrG5h" value="NumberList" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
   </node>
   <node concept="1TIwiD" id="4M56wQtcNI4">
     <property role="EcuMT" value="5513841964559317892" />
@@ -478,6 +493,15 @@
       <property role="3tVfz5" value="5513841964559317983" />
       <property role="TrG5h" value="binary" />
       <property role="1L1pqM" value="BINARY" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3S00N6OsBr0">
+    <property role="TrG5h" value="ModelFamilyName" />
+    <property role="EcuMT" value="4467574342367213248" />
+    <node concept="1TJgyi" id="3S00N6OsBr5" role="1TKVEl">
+      <property role="IQ2nx" value="4467574342367213253" />
+      <property role="TrG5h" value="modelFamilyName" />
+      <ref role="AX2Wp" node="4M56wQtcNIr" resolve="EnumModelFamilyName" />
     </node>
   </node>
 </model>
